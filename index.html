@@ -195,25 +195,39 @@
             <!-- divide this into 5 rows charts with full width -->
             <div class="grid-container">
                 <div class="grid-item">
-                    <p>Acceleration</p>
-                    <canvas id="myChart1" width="400" height=""></canvas>
+
+                    <canvas id="myChar3t" width="400" height=""></canvas>
+
                 </div>
                 <div class="grid-item">
-                    <p>Speed</p>
+
                     <canvas id="myChart2" width="400" height=""></canvas>
+
                 </div>
                 <div class="grid-item">
-                    <p>Distance</p>
+
                     <canvas id="myChart3" width="400" height=""></canvas>
+
                 </div>
                 <div class="grid-item">
-                    <p>Time</p>
+
                     <canvas id="myChart4" width="400" height=""></canvas>
+
                 </div>
                 <div class="grid-item">
-                    <p></p>
+
                     <canvas id="myChart5" width="400" height=""></canvas>
+
                 </div>
+
+                <div class="grid-item">
+
+                    <canvas id="myChart6" width="400" height=""></canvas>
+
+                </div>
+
+
+
             </div>
 
 
@@ -221,25 +235,22 @@
         </div>
 
 
+        <script src="index.js"></script>
+        <script>
 
-    </div>
+            // get the button element
+            var start = document.getElementById("start");
 
+            //addevetlistener to the button
+            start.addEventListener("click", function () {
+                //alert("Hello World!");
+                //start the simulation
+                startSimulation();
+            });
 
-    <script src="index.js"></script>
-    <script>
+        // plotTemperature();
 
-        // get the button element
-        var start = document.getElementById("start");
-
-        //addevetlistener to the button
-        start.addEventListener("click", function () {
-            //alert("Hello World!");
-            //start the simulation
-            startSimulation();
-        });
-
-
-    </script>
+        </script>
 
 </body>
 
