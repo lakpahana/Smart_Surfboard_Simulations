@@ -58,6 +58,13 @@
             background-color: #3e8e41;
         }
 
+        /* start when disabled */
+        #start:disabled {
+            background-color: #cccccc;
+            color: #666666;
+            cursor: not-allowed;
+        }
+
         .surfboard {
             margin-top: 50px;
             margin-left: 20px;
@@ -118,7 +125,9 @@
 
                 <h4>Smart Surfboard Simulation V1</h4>
                 <!-- button with button id start -->
-                <button id="start">Start</button>
+
+                <button id="start">Start Simulation</button>
+
             </div>
             <div class="grid-item" style="
             /* remove border */
@@ -237,19 +246,13 @@
 
         <script src="index.js"></script>
         <script>
-
-            // get the button element
-            var start = document.getElementById("start");
-
-            //addevetlistener to the button
-            start.addEventListener("click", function () {
-                //alert("Hello World!");
-                //start the simulation
+            // get the button id start, disable it after clicking
+            const startButton = document.getElementById('start');
+            startButton.addEventListener('click', () => {
+                startButton.disabled = true;
+                // start the simulation
                 startSimulation();
             });
-
-        // plotTemperature();
-
         </script>
 
 </body>

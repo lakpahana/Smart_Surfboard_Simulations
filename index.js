@@ -408,816 +408,634 @@ var sim3 = [
     {
         "timestamp": "2023-08-25T10:00:00.000Z",
         "gps": {
-            "distance_from_beach": "5m",
+            "distance_from_beach": "40.0m",
             "latitude": "34.020700",
             "longitude": "-118.502400",
-            "speed": "1.8"
+            "speed": "0.0"
         },
         "accelerometer": {
-            "x": "0.3",
-            "y": "9.9",
-            "z": "0.2"
+            "x": "0.1",
+            "y": "10.2",
+            "z": "0.7"
         },
         "gyroscope": {
-            "pitch": "9.5",
-            "roll": "0.7",
-            "yaw": "4.4"
+            "pitch": "2.2",
+            "roll": "3.7",
+            "yaw": "3.4"
         },
         "force": {
-            "front": "26.4",
-            "middle": "59.6",
-            "rear": "13.0"
+            "front": "13.8",
+            "middle": "12.5",
+            "rear": "34.0"
         },
-        "pressure": "1016.2 hPa",
-        "temperature": "18.1°C"
+        "pressure": "1016.9 hPa",
+        "temperature": "19.5°C"
     },
     {
         "timestamp": "2023-08-25T10:00:05.000Z",
         "gps": {
-            "distance_from_beach": "5m",
+            "distance_from_beach": "39.0m",
             "latitude": "34.020700",
             "longitude": "-118.502400",
-            "speed": "0.8"
+            "speed": "0.0"
         },
         "accelerometer": {
-            "x": "0.3",
-            "y": "10.1",
-            "z": "0.4"
+            "x": "0.1",
+            "y": "9.9",
+            "z": "0.3"
         },
         "gyroscope": {
-            "pitch": "9.9",
-            "roll": "0.0",
-            "yaw": "1.9"
+            "pitch": "2.6",
+            "roll": "1.6",
+            "yaw": "2.8"
         },
         "force": {
-            "front": "31.6",
-            "middle": "66.8",
-            "rear": "15.7"
+            "front": "27.5",
+            "middle": "27.4",
+            "rear": "24.3"
         },
-        "pressure": "1014.1 hPa",
-        "temperature": "21.2°C"
+        "pressure": "1016.3 hPa",
+        "temperature": "19.5°C"
     },
     {
         "timestamp": "2023-08-25T10:00:10.000Z",
         "gps": {
-            "distance_from_beach": "5m",
+            "distance_from_beach": "38.0m",
             "latitude": "34.020700",
             "longitude": "-118.502400",
-            "speed": "1.5"
+            "speed": "0.0"
         },
         "accelerometer": {
-            "x": "0.5",
-            "y": "9.9",
-            "z": "0.3"
+            "x": "0.6",
+            "y": "10.6",
+            "z": "0.6"
         },
         "gyroscope": {
-            "pitch": "0.2",
-            "roll": "0.5",
-            "yaw": "1.1"
+            "pitch": "8.2",
+            "roll": "3.4",
+            "yaw": "2.0"
         },
         "force": {
-            "front": "36.7",
-            "middle": "66.0",
-            "rear": "19.5"
+            "front": "12.3",
+            "middle": "9.3",
+            "rear": "2.0"
         },
-        "pressure": "1013.6 hPa",
-        "temperature": "21.3°C"
+        "pressure": "1015.8 hPa",
+        "temperature": "19.5°C"
     },
     {
         "timestamp": "2023-08-25T10:00:15.000Z",
         "gps": {
-            "distance_from_beach": "5m",
+            "distance_from_beach": "37.0m",
             "latitude": "34.020700",
             "longitude": "-118.502400",
-            "speed": "0.8"
+            "speed": "0.0"
         },
         "accelerometer": {
-            "x": "0.1",
-            "y": "9.9",
-            "z": "0.2"
+            "x": "0.4",
+            "y": "10.3",
+            "z": "0.3"
         },
         "gyroscope": {
-            "pitch": "4.2",
-            "roll": "0.0",
-            "yaw": "1.5"
+            "pitch": "6.6",
+            "roll": "4.5",
+            "yaw": "3.0"
         },
         "force": {
-            "front": "24.2",
-            "middle": "63.4",
-            "rear": "18.6"
+            "front": "7.8",
+            "middle": "31.6",
+            "rear": "11.7"
         },
-        "pressure": "1019.4 hPa",
-        "temperature": "18.3°C"
+        "pressure": "1016.4 hPa",
+        "temperature": "19.5°C"
     },
     {
         "timestamp": "2023-08-25T10:00:20.000Z",
         "gps": {
-            "distance_from_beach": "5m",
+            "distance_from_beach": "36.0m",
             "latitude": "34.020700",
             "longitude": "-118.502400",
-            "speed": "1.0"
+            "speed": "0.0"
         },
         "accelerometer": {
-            "x": "0.0",
-            "y": "9.9",
-            "z": "0.5"
+            "x": "0.3",
+            "y": "10.5",
+            "z": "0.0"
         },
         "gyroscope": {
             "pitch": "1.6",
-            "roll": "0.6",
-            "yaw": "4.4"
+            "roll": "1.9",
+            "yaw": "3.5"
         },
         "force": {
-            "front": "46.2",
-            "middle": "33.1",
-            "rear": "24.0"
+            "front": "17.8",
+            "middle": "37.0",
+            "rear": "13.9"
         },
-        "pressure": "1017.8 hPa",
-        "temperature": "19.9°C"
+        "pressure": "1016.1 hPa",
+        "temperature": "19.5°C"
     },
     {
         "timestamp": "2023-08-25T10:00:25.000Z",
         "gps": {
-            "distance_from_beach": "5m",
+            "distance_from_beach": "35.0m",
             "latitude": "34.020700",
             "longitude": "-118.502400",
-            "speed": "0.3"
+            "speed": "0.0"
         },
         "accelerometer": {
-            "x": "0.0",
-            "y": "10.0",
-            "z": "0.3"
+            "x": "0.4",
+            "y": "10.1",
+            "z": "0.2"
         },
         "gyroscope": {
-            "pitch": "9.8",
-            "roll": "0.3",
-            "yaw": "3.3"
+            "pitch": "3.5",
+            "roll": "0.2",
+            "yaw": "4.7"
         },
         "force": {
-            "front": "46.5",
-            "middle": "60.0",
-            "rear": "14.9"
+            "front": "1.0",
+            "middle": "27.3",
+            "rear": "23.8"
         },
-        "pressure": "1019.4 hPa",
-        "temperature": "19.2°C"
+        "pressure": "1015.2 hPa",
+        "temperature": "19.5°C"
     },
     {
         "timestamp": "2023-08-25T10:00:30.000Z",
         "gps": {
-            "distance_from_beach": "5m",
+            "distance_from_beach": "34.0m",
             "latitude": "34.020700",
             "longitude": "-118.502400",
-            "speed": "1.1"
+            "speed": "0.0"
         },
         "accelerometer": {
-            "x": "0.3",
-            "y": "9.9",
-            "z": "0.1"
+            "x": "0.2",
+            "y": "10.1",
+            "z": "0.4"
         },
         "gyroscope": {
-            "pitch": "8.2",
-            "roll": "0.5",
-            "yaw": "2.7"
+            "pitch": "8.0",
+            "roll": "3.0",
+            "yaw": "1.1"
         },
         "force": {
-            "front": "21.5",
-            "middle": "48.7",
-            "rear": "15.1"
+            "front": "9.8",
+            "middle": "8.5",
+            "rear": "10.6"
         },
-        "pressure": "1012.3 hPa",
-        "temperature": "21.4°C"
+        "pressure": "1016.3 hPa",
+        "temperature": "19.5°C"
     },
     {
         "timestamp": "2023-08-25T10:00:35.000Z",
         "gps": {
-            "distance_from_beach": "5m",
+            "distance_from_beach": "33.0m",
             "latitude": "34.020700",
             "longitude": "-118.502400",
-            "speed": "1.3"
+            "speed": "0.0"
         },
         "accelerometer": {
-            "x": "0.2",
-            "y": "10.0",
-            "z": "0.0"
+            "x": "0.4",
+            "y": "9.8",
+            "z": "0.6"
         },
         "gyroscope": {
-            "pitch": "3.0",
-            "roll": "0.2",
-            "yaw": "3.3"
+            "pitch": "9.7",
+            "roll": "2.6",
+            "yaw": "1.7"
         },
         "force": {
-            "front": "44.6",
-            "middle": "33.8",
-            "rear": "18.9"
+            "front": "6.6",
+            "middle": "8.5",
+            "rear": "21.2"
         },
-        "pressure": "1016.8 hPa",
-        "temperature": "20.4°C"
+        "pressure": "1016.0 hPa",
+        "temperature": "19.5°C"
     },
     {
         "timestamp": "2023-08-25T10:00:40.000Z",
         "gps": {
-            "distance_from_beach": "5m",
+            "distance_from_beach": "32.0m",
             "latitude": "34.020700",
             "longitude": "-118.502400",
-            "speed": "1.8"
+            "speed": "9.9"
         },
         "accelerometer": {
-            "x": "0.3",
+            "x": "1.0",
             "y": "10.0",
-            "z": "0.3"
+            "z": "0.4"
         },
         "gyroscope": {
-            "pitch": "3.2",
-            "roll": "0.6",
-            "yaw": "1.1"
+            "pitch": "0.6",
+            "roll": "2.3",
+            "yaw": "3.2"
         },
         "force": {
-            "front": "44.4",
-            "middle": "67.5",
-            "rear": "13.7"
+            "front": "0.2",
+            "middle": "21.9",
+            "rear": "32.5"
         },
-        "pressure": "1015.3 hPa",
-        "temperature": "18.3°C"
+        "pressure": "1016.3 hPa",
+        "temperature": "20.6°C"
     },
     {
         "timestamp": "2023-08-25T10:00:45.000Z",
         "gps": {
-            "distance_from_beach": "5m",
+            "distance_from_beach": "31.0m",
             "latitude": "34.020700",
             "longitude": "-118.502400",
-            "speed": "0.8"
+            "speed": "1.2"
         },
         "accelerometer": {
-            "x": "0.3",
-            "y": "10.0",
-            "z": "0.5"
+            "x": "0.5",
+            "y": "10.8",
+            "z": "0.9"
         },
         "gyroscope": {
-            "pitch": "7.7",
-            "roll": "0.5",
-            "yaw": "2.4"
+            "pitch": "1.6",
+            "roll": "4.4",
+            "yaw": "4.8"
         },
         "force": {
-            "front": "27.4",
-            "middle": "57.6",
-            "rear": "27.4"
+            "front": "19.4",
+            "middle": "48.8",
+            "rear": "32.5"
         },
-        "pressure": "1016.1 hPa",
-        "temperature": "20.9°C"
+        "pressure": "1016.6 hPa",
+        "temperature": "20.6°C"
     },
     {
         "timestamp": "2023-08-25T10:00:50.000Z",
         "gps": {
-            "distance_from_beach": "5m",
+            "distance_from_beach": "30.0m",
             "latitude": "34.020700",
             "longitude": "-118.502400",
-            "speed": "1.1"
+            "speed": "8.1"
         },
         "accelerometer": {
-            "x": "0.2",
-            "y": "9.9",
-            "z": "0.3"
+            "x": "0.3",
+            "y": "10.5",
+            "z": "0.7"
         },
         "gyroscope": {
-            "pitch": "2.0",
-            "roll": "0.5",
-            "yaw": "2.5"
+            "pitch": "2.4",
+            "roll": "4.0",
+            "yaw": "4.6"
         },
         "force": {
-            "front": "44.9",
-            "middle": "57.8",
-            "rear": "20.7"
+            "front": "39.7",
+            "middle": "38.7",
+            "rear": "26.3"
         },
-        "pressure": "1011.9 hPa",
-        "temperature": "18.5°C"
+        "pressure": "1017.0 hPa",
+        "temperature": "21.0°C"
     },
     {
         "timestamp": "2023-08-25T10:00:55.000Z",
         "gps": {
-            "distance_from_beach": "5m",
+            "distance_from_beach": "29.0m",
             "latitude": "34.020700",
             "longitude": "-118.502400",
-            "speed": "1.1"
+            "speed": "4.0"
         },
         "accelerometer": {
-            "x": "0.5",
-            "y": "10.1",
-            "z": "0.3"
+            "x": "0.3",
+            "y": "10.0",
+            "z": "0.4"
         },
         "gyroscope": {
-            "pitch": "9.6",
-            "roll": "0.6",
-            "yaw": "4.7"
+            "pitch": "2.3",
+            "roll": "2.7",
+            "yaw": "1.9"
         },
         "force": {
-            "front": "26.6",
-            "middle": "55.7",
-            "rear": "22.7"
+            "front": "30.4",
+            "middle": "0.9",
+            "rear": "21.6"
         },
-        "pressure": "1018.5 hPa",
-        "temperature": "18.4°C"
+        "pressure": "1015.6 hPa",
+        "temperature": "21.4°C"
     },
     {
         "timestamp": "2023-08-25T10:01:00.000Z",
         "gps": {
-            "distance_from_beach": "5m",
+            "distance_from_beach": "28.0m",
             "latitude": "34.020700",
             "longitude": "-118.502400",
-            "speed": "0.6"
+            "speed": "5.4"
         },
         "accelerometer": {
-            "x": "0.2",
-            "y": "9.8",
-            "z": "0.4"
+            "x": "0.0",
+            "y": "10.2",
+            "z": "0.1"
         },
         "gyroscope": {
-            "pitch": "9.5",
-            "roll": "0.5",
-            "yaw": "2.6"
+            "pitch": "2.1",
+            "roll": "0.1",
+            "yaw": "1.6"
         },
         "force": {
-            "front": "37.7",
-            "middle": "41.3",
-            "rear": "29.7"
+            "front": "20.9",
+            "middle": "39.0",
+            "rear": "13.7"
         },
-        "pressure": "1011.3 hPa",
-        "temperature": "20.8°C"
+        "pressure": "1017.0 hPa",
+        "temperature": "18.6°C"
     },
     {
         "timestamp": "2023-08-25T10:01:05.000Z",
         "gps": {
-            "distance_from_beach": "5m",
+            "distance_from_beach": "27.0m",
             "latitude": "34.020700",
             "longitude": "-118.502400",
-            "speed": "0.3"
+            "speed": "6.9"
         },
         "accelerometer": {
-            "x": "0.2",
-            "y": "10.0",
-            "z": "0.3"
+            "x": "0.6",
+            "y": "10.3",
+            "z": "0.9"
         },
         "gyroscope": {
-            "pitch": "1.0",
-            "roll": "0.0",
-            "yaw": "0.8"
+            "pitch": "5.3",
+            "roll": "2.2",
+            "yaw": "1.0"
         },
         "force": {
-            "front": "27.6",
-            "middle": "30.6",
-            "rear": "29.7"
+            "front": "2.8",
+            "middle": "35.9",
+            "rear": "0.1"
         },
-        "pressure": "1017.0 hPa",
-        "temperature": "19.1°C"
+        "pressure": "1015.1 hPa",
+        "temperature": "20.8°C"
     },
     {
         "timestamp": "2023-08-25T10:01:10.000Z",
         "gps": {
-            "distance_from_beach": "5m",
+            "distance_from_beach": "26.0m",
             "latitude": "34.020700",
             "longitude": "-118.502400",
-            "speed": "1.1"
+            "speed": "7.9"
         },
         "accelerometer": {
-            "x": "0.1",
-            "y": "9.9",
-            "z": "0.3"
+            "x": "0.5",
+            "y": "10.8",
+            "z": "0.0"
         },
         "gyroscope": {
-            "pitch": "2.3",
-            "roll": "0.5",
-            "yaw": "4.8"
+            "pitch": "9.3",
+            "roll": "5.0",
+            "yaw": "1.8"
         },
         "force": {
-            "front": "22.4",
-            "middle": "35.7",
-            "rear": "16.6"
+            "front": "32.7",
+            "middle": "8.4",
+            "rear": "1.3"
         },
-        "pressure": "1016.6 hPa",
-        "temperature": "18.9°C"
+        "pressure": "1017.0 hPa",
+        "temperature": "19.2°C"
     },
     {
         "timestamp": "2023-08-25T10:01:15.000Z",
         "gps": {
-            "distance_from_beach": "5m",
+            "distance_from_beach": "25.0m",
             "latitude": "34.020700",
             "longitude": "-118.502400",
-            "speed": "0.6"
+            "speed": "8.2"
+        },
+        "accelerometer": {
+            "x": "0.9",
+            "y": "10.6",
+            "z": "0.7"
+        },
+        "gyroscope": {
+            "pitch": "7.8",
+            "roll": "1.4",
+            "yaw": "2.6"
+        },
+        "force": {
+            "front": "5.5",
+            "middle": "31.4",
+            "rear": "12.2"
+        },
+        "pressure": "1016.2 hPa",
+        "temperature": "21.7°C"
+    },
+    {
+        "timestamp": "2023-08-25T10:01:20.000Z",
+        "gps": {
+            "distance_from_beach": "24.0m",
+            "latitude": "34.020700",
+            "longitude": "-118.502400",
+            "speed": "9.8"
+        },
+        "accelerometer": {
+            "x": "0.9",
+            "y": "10.2",
+            "z": "0.8"
+        },
+        "gyroscope": {
+            "pitch": "0.4",
+            "roll": "4.6",
+            "yaw": "2.4"
+        },
+        "force": {
+            "front": "27.8",
+            "middle": "38.4",
+            "rear": "31.2"
+        },
+        "pressure": "1016.8 hPa",
+        "temperature": "18.8°C"
+    },
+    {
+        "timestamp": "2023-08-25T10:01:25.000Z",
+        "gps": {
+            "distance_from_beach": "23.0m",
+            "latitude": "34.020700",
+            "longitude": "-118.502400",
+            "speed": "9.8"
         },
         "accelerometer": {
             "x": "0.2",
-            "y": "10.2",
+            "y": "10.6",
+            "z": "0.9"
+        },
+        "gyroscope": {
+            "pitch": "9.9",
+            "roll": "2.2",
+            "yaw": "2.2"
+        },
+        "force": {
+            "front": "11.3",
+            "middle": "2.1",
+            "rear": "25.6"
+        },
+        "pressure": "1016.2 hPa",
+        "temperature": "20.5°C"
+    },
+    {
+        "timestamp": "2023-08-25T10:01:30.000Z",
+        "gps": {
+            "distance_from_beach": "22.0m",
+            "latitude": "34.020700",
+            "longitude": "-118.502400",
+            "speed": "3.2"
+        },
+        "accelerometer": {
+            "x": "0.2",
+            "y": "10.4",
             "z": "0.3"
         },
         "gyroscope": {
-            "pitch": "4.5",
-            "roll": "0.6",
-            "yaw": "0.8"
+            "pitch": "5.9",
+            "roll": "4.5",
+            "yaw": "2.4"
         },
         "force": {
-            "front": "34.2",
-            "middle": "34.8",
-            "rear": "20.2"
+            "front": "0.2",
+            "middle": "41.8",
+            "rear": "18.8"
         },
         "pressure": "1015.1 hPa",
         "temperature": "21.2°C"
     },
     {
-        "timestamp": "2023-08-25T10:01:20.000Z",
+        "timestamp": "2023-08-25T10:01:35.000Z",
         "gps": {
-            "distance_from_beach": "5m",
+            "distance_from_beach": "21.0m",
             "latitude": "34.020700",
             "longitude": "-118.502400",
-            "speed": "0.6"
+            "speed": "3.6"
         },
         "accelerometer": {
-            "x": "0.5",
+            "x": "0.1",
             "y": "10.1",
             "z": "0.4"
         },
         "gyroscope": {
-            "pitch": "9.6",
-            "roll": "0.4",
-            "yaw": "0.5"
+            "pitch": "8.6",
+            "roll": "2.5",
+            "yaw": "3.8"
         },
         "force": {
-            "front": "47.4",
-            "middle": "58.8",
-            "rear": "11.6"
+            "front": "35.7",
+            "middle": "20.4",
+            "rear": "17.8"
         },
-        "pressure": "1019.3 hPa",
-        "temperature": "18.4°C"
-    },
-    {
-        "timestamp": "2023-08-25T10:01:25.000Z",
-        "gps": {
-            "distance_from_beach": "5m",
-            "latitude": "34.020700",
-            "longitude": "-118.502400",
-            "speed": "1.0"
-        },
-        "accelerometer": {
-            "x": "0.4",
-            "y": "10.2",
-            "z": "0.2"
-        },
-        "gyroscope": {
-            "pitch": "3.1",
-            "roll": "0.3",
-            "yaw": "4.5"
-        },
-        "force": {
-            "front": "39.6",
-            "middle": "57.6",
-            "rear": "25.9"
-        },
-        "pressure": "1018.8 hPa",
-        "temperature": "18.2°C"
-    },
-    {
-        "timestamp": "2023-08-25T10:01:30.000Z",
-        "gps": {
-            "distance_from_beach": "5m",
-            "latitude": "34.020700",
-            "longitude": "-118.502400",
-            "speed": "1.3"
-        },
-        "accelerometer": {
-            "x": "0.1",
-            "y": "10.2",
-            "z": "0.3"
-        },
-        "gyroscope": {
-            "pitch": "5.4",
-            "roll": "0.5",
-            "yaw": "1.6"
-        },
-        "force": {
-            "front": "23.5",
-            "middle": "37.2",
-            "rear": "28.6"
-        },
-        "pressure": "1015.7 hPa",
-        "temperature": "21.7°C"
-    },
-    {
-        "timestamp": "2023-08-25T10:01:35.000Z",
-        "gps": {
-            "distance_from_beach": "5m",
-            "latitude": "34.020700",
-            "longitude": "-118.502400",
-            "speed": "1.4"
-        },
-        "accelerometer": {
-            "x": "0.2",
-            "y": "9.9",
-            "z": "0.1"
-        },
-        "gyroscope": {
-            "pitch": "6.2",
-            "roll": "1.0",
-            "yaw": "0.6"
-        },
-        "force": {
-            "front": "37.8",
-            "middle": "33.7",
-            "rear": "27.9"
-        },
-        "pressure": "1018.0 hPa",
-        "temperature": "19.4°C"
+        "pressure": "1015.4 hPa",
+        "temperature": "18.3°C"
     },
     {
         "timestamp": "2023-08-25T10:01:40.000Z",
         "gps": {
-            "distance_from_beach": "5m",
+            "distance_from_beach": "20.0m",
             "latitude": "34.020700",
             "longitude": "-118.502400",
-            "speed": "0.1"
+            "speed": "5.1"
         },
         "accelerometer": {
-            "x": "0.4",
-            "y": "10.2",
-            "z": "0.1"
-        },
-        "gyroscope": {
-            "pitch": "3.7",
-            "roll": "0.5",
-            "yaw": "3.4"
-        },
-        "force": {
-            "front": "40.5",
-            "middle": "59.3",
-            "rear": "10.9"
-        },
-        "pressure": "1013.5 hPa",
-        "temperature": "20.1°C"
-    },
-    {
-        "timestamp": "2023-08-25T10:01:45.000Z",
-        "gps": {
-            "distance_from_beach": "5m",
-            "latitude": "34.020700",
-            "longitude": "-118.502400",
-            "speed": "1.3"
-        },
-        "accelerometer": {
-            "x": "0.5",
-            "y": "10.1",
-            "z": "0.3"
-        },
-        "gyroscope": {
-            "pitch": "8.5",
-            "roll": "0.2",
-            "yaw": "1.1"
-        },
-        "force": {
-            "front": "34.9",
-            "middle": "63.5",
-            "rear": "14.1"
-        },
-        "pressure": "1019.4 hPa",
-        "temperature": "21.7°C"
-    },
-    {
-        "timestamp": "2023-08-25T10:01:50.000Z",
-        "gps": {
-            "distance_from_beach": "5m",
-            "latitude": "34.020700",
-            "longitude": "-118.502400",
-            "speed": "0.1"
-        },
-        "accelerometer": {
-            "x": "0.4",
-            "y": "10.2",
-            "z": "0.2"
-        },
-        "gyroscope": {
-            "pitch": "6.5",
-            "roll": "0.8",
-            "yaw": "3.0"
-        },
-        "force": {
-            "front": "28.4",
-            "middle": "67.2",
-            "rear": "21.3"
-        },
-        "pressure": "1010.8 hPa",
-        "temperature": "18.4°C"
-    },
-    {
-        "timestamp": "2023-08-25T10:01:55.000Z",
-        "gps": {
-            "distance_from_beach": "5m",
-            "latitude": "34.020700",
-            "longitude": "-118.502400",
-            "speed": "1.7"
-        },
-        "accelerometer": {
-            "x": "0.2",
-            "y": "10.0",
-            "z": "0.1"
-        },
-        "gyroscope": {
-            "pitch": "0.9",
-            "roll": "0.4",
-            "yaw": "4.6"
-        },
-        "force": {
-            "front": "41.9",
-            "middle": "60.0",
-            "rear": "14.5"
-        },
-        "pressure": "1017.7 hPa",
-        "temperature": "20.4°C"
-    },
-    {
-        "timestamp": "2023-08-25T10:02:00.000Z",
-        "gps": {
-            "distance_from_beach": "5m",
-            "latitude": "34.020700",
-            "longitude": "-118.502400",
-            "speed": "0.5"
-        },
-        "accelerometer": {
-            "x": "0.4",
-            "y": "9.8",
-            "z": "0.1"
-        },
-        "gyroscope": {
-            "pitch": "6.3",
-            "roll": "0.5",
-            "yaw": "2.7"
-        },
-        "force": {
-            "front": "29.7",
-            "middle": "42.3",
-            "rear": "19.6"
-        },
-        "pressure": "1015.4 hPa",
-        "temperature": "18.6°C"
-    },
-    {
-        "timestamp": "2023-08-25T10:02:05.000Z",
-        "gps": {
-            "distance_from_beach": "5m",
-            "latitude": "34.020700",
-            "longitude": "-118.502400",
-            "speed": "0.6"
-        },
-        "accelerometer": {
-            "x": "0.1",
-            "y": "10.3",
-            "z": "0.2"
-        },
-        "gyroscope": {
-            "pitch": "7.1",
-            "roll": "0.4",
-            "yaw": "2.3"
-        },
-        "force": {
-            "front": "24.9",
-            "middle": "32.2",
-            "rear": "15.3"
-        },
-        "pressure": "1013.6 hPa",
-        "temperature": "21.7°C"
-    },
-    {
-        "timestamp": "2023-08-25T10:02:10.000Z",
-        "gps": {
-            "distance_from_beach": "5m",
-            "latitude": "34.020700",
-            "longitude": "-118.502400",
-            "speed": "0.5"
-        },
-        "accelerometer": {
-            "x": "0.3",
-            "y": "10.3",
-            "z": "0.3"
-        },
-        "gyroscope": {
-            "pitch": "1.1",
-            "roll": "0.5",
-            "yaw": "2.1"
-        },
-        "force": {
-            "front": "24.5",
-            "middle": "32.1",
-            "rear": "28.0"
-        },
-        "pressure": "1015.4 hPa",
-        "temperature": "20.3°C"
-    },
-    {
-        "timestamp": "2023-08-25T10:02:15.000Z",
-        "gps": {
-            "distance_from_beach": "5m",
-            "latitude": "34.020700",
-            "longitude": "-118.502400",
-            "speed": "0.2"
-        },
-        "accelerometer": {
-            "x": "0.4",
-            "y": "10.1",
-            "z": "0.0"
-        },
-        "gyroscope": {
-            "pitch": "5.4",
-            "roll": "0.8",
-            "yaw": "1.4"
-        },
-        "force": {
-            "front": "45.5",
-            "middle": "32.3",
-            "rear": "28.1"
-        },
-        "pressure": "1016.4 hPa",
-        "temperature": "19.8°C"
-    },
-    {
-        "timestamp": "2023-08-25T10:02:20.000Z",
-        "gps": {
-            "distance_from_beach": "5m",
-            "latitude": "34.020700",
-            "longitude": "-118.502400",
-            "speed": "1.4"
-        },
-        "accelerometer": {
-            "x": "0.2",
-            "y": "10.2",
-            "z": "0.3"
-        },
-        "gyroscope": {
-            "pitch": "9.2",
-            "roll": "0.3",
-            "yaw": "4.1"
-        },
-        "force": {
-            "front": "20.3",
-            "middle": "57.1",
-            "rear": "21.8"
-        },
-        "pressure": "1019.0 hPa",
-        "temperature": "19.8°C"
-    },
-    {
-        "timestamp": "2023-08-25T10:02:25.000Z",
-        "gps": {
-            "distance_from_beach": "5m",
-            "latitude": "34.020700",
-            "longitude": "-118.502400",
-            "speed": "1.6"
-        },
-        "accelerometer": {
-            "x": "0.4",
+            "x": "0.0",
             "y": "9.9",
             "z": "0.3"
         },
         "gyroscope": {
-            "pitch": "1.2",
-            "roll": "0.9",
-            "yaw": "2.6"
+            "pitch": "7.9",
+            "roll": "4.0",
+            "yaw": "0.3"
         },
         "force": {
-            "front": "25.6",
-            "middle": "59.1",
-            "rear": "29.5"
+            "front": "22.5",
+            "middle": "11.7",
+            "rear": "5.1"
         },
-        "pressure": "1014.4 hPa",
-        "temperature": "18.4°C"
+        "pressure": "1016.6 hPa",
+        "temperature": "19.3°C"
     },
     {
-        "timestamp": "2023-08-25T10:02:30.000Z",
+        "timestamp": "2023-08-25T10:01:45.000Z",
         "gps": {
-            "distance_from_beach": "5m",
+            "distance_from_beach": "19.0m",
             "latitude": "34.020700",
             "longitude": "-118.502400",
-            "speed": "0.3"
+            "speed": "3.4"
         },
         "accelerometer": {
-            "x": "0.1",
-            "y": "10.0",
-            "z": "0.0"
+            "x": "0.2",
+            "y": "10.7",
+            "z": "0.7"
         },
         "gyroscope": {
-            "pitch": "7.7",
-            "roll": "0.3",
-            "yaw": "4.3"
+            "pitch": "1.7",
+            "roll": "2.8",
+            "yaw": "2.8"
         },
         "force": {
-            "front": "30.4",
-            "middle": "36.3",
-            "rear": "17.4"
+            "front": "33.5",
+            "middle": "26.8",
+            "rear": "29.5"
         },
-        "pressure": "1011.1 hPa",
+        "pressure": "1016.7 hPa",
         "temperature": "19.4°C"
     },
     {
-        "timestamp": "2023-08-25T10:02:35.000Z",
+        "timestamp": "2023-08-25T10:01:50.000Z",
         "gps": {
-            "distance_from_beach": "5m",
+            "distance_from_beach": "18.0m",
             "latitude": "34.020700",
             "longitude": "-118.502400",
-            "speed": "1.9"
+            "speed": "8.2"
+        },
+        "accelerometer": {
+            "x": "0.0",
+            "y": "10.7",
+            "z": "0.8"
+        },
+        "gyroscope": {
+            "pitch": "5.1",
+            "roll": "1.6",
+            "yaw": "3.4"
+        },
+        "force": {
+            "front": "14.3",
+            "middle": "41.2",
+            "rear": "11.0"
+        },
+        "pressure": "1015.5 hPa",
+        "temperature": "20.6°C"
+    },
+    {
+        "timestamp": "2023-08-25T10:01:55.000Z",
+        "gps": {
+            "distance_from_beach": "17.0m",
+            "latitude": "34.020700",
+            "longitude": "-118.502400",
+            "speed": "8.5"
+        },
+        "accelerometer": {
+            "x": "0.3",
+            "y": "10.6",
+            "z": "1.0"
+        },
+        "gyroscope": {
+            "pitch": "3.1",
+            "roll": "1.5",
+            "yaw": "0.2"
+        },
+        "force": {
+            "front": "18.4",
+            "middle": "12.6",
+            "rear": "6.4"
+        },
+        "pressure": "1016.9 hPa",
+        "temperature": "18.4°C"
+    },
+    {
+        "timestamp": "2023-08-25T10:02:00.000Z",
+        "gps": {
+            "distance_from_beach": "16.0m",
+            "latitude": "34.020700",
+            "longitude": "-118.502400",
+            "speed": "7.7"
         },
         "accelerometer": {
             "x": "0.2",
@@ -1225,123 +1043,313 @@ var sim3 = [
             "z": "0.2"
         },
         "gyroscope": {
-            "pitch": "6.7",
-            "roll": "0.8",
-            "yaw": "4.7"
+            "pitch": "0.2",
+            "roll": "3.6",
+            "yaw": "3.2"
         },
         "force": {
-            "front": "33.5",
-            "middle": "30.8",
-            "rear": "19.8"
+            "front": "3.5",
+            "middle": "10.1",
+            "rear": "3.0"
         },
-        "pressure": "1019.7 hPa",
-        "temperature": "20.1°C"
+        "pressure": "1015.9 hPa",
+        "temperature": "19.7°C"
     },
     {
-        "timestamp": "2023-08-25T10:02:40.000Z",
+        "timestamp": "2023-08-25T10:02:05.000Z",
         "gps": {
-            "distance_from_beach": "5m",
+            "distance_from_beach": "15.0m",
             "latitude": "34.020700",
             "longitude": "-118.502400",
-            "speed": "1.6"
+            "speed": "3.1"
         },
         "accelerometer": {
-            "x": "0.1",
-            "y": "9.8",
-            "z": "0.5"
+            "x": "0.9",
+            "y": "10.3",
+            "z": "0.6"
         },
         "gyroscope": {
-            "pitch": "4.6",
-            "roll": "0.4",
-            "yaw": "1.0"
+            "pitch": "0.4",
+            "roll": "1.9",
+            "yaw": "2.7"
         },
         "force": {
-            "front": "29.3",
-            "middle": "42.4",
-            "rear": "10.5"
+            "front": "29.5",
+            "middle": "21.6",
+            "rear": "19.6"
         },
-        "pressure": "1011.3 hPa",
-        "temperature": "20.2°C"
+        "pressure": "1015.8 hPa",
+        "temperature": "18.1°C"
     },
     {
-        "timestamp": "2023-08-25T10:02:45.000Z",
+        "timestamp": "2023-08-25T10:02:10.000Z",
         "gps": {
-            "distance_from_beach": "5m",
-            "latitude": "34.020700",
-            "longitude": "-118.502400",
-            "speed": "0.5"
-        },
-        "accelerometer": {
-            "x": "0.4",
-            "y": "10.2",
-            "z": "0.1"
-        },
-        "gyroscope": {
-            "pitch": "0.0",
-            "roll": "0.7",
-            "yaw": "3.6"
-        },
-        "force": {
-            "front": "42.0",
-            "middle": "38.3",
-            "rear": "22.1"
-        },
-        "pressure": "1016.1 hPa",
-        "temperature": "18.3°C"
-    },
-    {
-        "timestamp": "2023-08-25T10:02:50.000Z",
-        "gps": {
-            "distance_from_beach": "5m",
+            "distance_from_beach": "14.0m",
             "latitude": "34.020700",
             "longitude": "-118.502400",
             "speed": "0.3"
         },
         "accelerometer": {
             "x": "0.2",
-            "y": "10.0",
-            "z": "0.2"
+            "y": "9.8",
+            "z": "0.9"
         },
         "gyroscope": {
-            "pitch": "2.0",
-            "roll": "0.4",
+            "pitch": "3.2",
+            "roll": "0.7",
+            "yaw": "2.8"
+        },
+        "force": {
+            "front": "26.4",
+            "middle": "11.5",
+            "rear": "33.7"
+        },
+        "pressure": "1016.9 hPa",
+        "temperature": "18.4°C"
+    },
+    {
+        "timestamp": "2023-08-25T10:02:15.000Z",
+        "gps": {
+            "distance_from_beach": "13.0m",
+            "latitude": "34.020700",
+            "longitude": "-118.502400",
+            "speed": "0.3"
+        },
+        "accelerometer": {
+            "x": "0.3",
+            "y": "10.1",
+            "z": "0.8"
+        },
+        "gyroscope": {
+            "pitch": "7.3",
+            "roll": "4.7",
+            "yaw": "3.3"
+        },
+        "force": {
+            "front": "30.4",
+            "middle": "46.0",
+            "rear": "35.3"
+        },
+        "pressure": "1015.5 hPa",
+        "temperature": "18.0°C"
+    },
+    {
+        "timestamp": "2023-08-25T10:02:20.000Z",
+        "gps": {
+            "distance_from_beach": "12.0m",
+            "latitude": "34.020700",
+            "longitude": "-118.502400",
+            "speed": "6.2"
+        },
+        "accelerometer": {
+            "x": "0.1",
+            "y": "10.0",
+            "z": "0.1"
+        },
+        "gyroscope": {
+            "pitch": "9.3",
+            "roll": "3.6",
+            "yaw": "3.6"
+        },
+        "force": {
+            "front": "24.9",
+            "middle": "10.7",
+            "rear": "11.9"
+        },
+        "pressure": "1015.7 hPa",
+        "temperature": "20.3°C"
+    },
+    {
+        "timestamp": "2023-08-25T10:02:25.000Z",
+        "gps": {
+            "distance_from_beach": "11.0m",
+            "latitude": "34.020700",
+            "longitude": "-118.502400",
+            "speed": "8.1"
+        },
+        "accelerometer": {
+            "x": "0.3",
+            "y": "10.2",
+            "z": "0.9"
+        },
+        "gyroscope": {
+            "pitch": "2.2",
+            "roll": "3.0",
+            "yaw": "3.6"
+        },
+        "force": {
+            "front": "25.1",
+            "middle": "41.7",
+            "rear": "16.7"
+        },
+        "pressure": "1015.2 hPa",
+        "temperature": "19.6°C"
+    },
+    {
+        "timestamp": "2023-08-25T10:02:30.000Z",
+        "gps": {
+            "distance_from_beach": "10.0m",
+            "latitude": "34.020700",
+            "longitude": "-118.502400",
+            "speed": "3.2"
+        },
+        "accelerometer": {
+            "x": "0.9",
+            "y": "10.0",
+            "z": "0.6"
+        },
+        "gyroscope": {
+            "pitch": "6.2",
+            "roll": "1.1",
+            "yaw": "3.5"
+        },
+        "force": {
+            "front": "34.1",
+            "middle": "6.2",
+            "rear": "20.7"
+        },
+        "pressure": "1015.5 hPa",
+        "temperature": "19.6°C"
+    },
+    {
+        "timestamp": "2023-08-25T10:02:35.000Z",
+        "gps": {
+            "distance_from_beach": "9.0m",
+            "latitude": "34.020700",
+            "longitude": "-118.502400",
+            "speed": "6.4"
+        },
+        "accelerometer": {
+            "x": "0.7",
+            "y": "10.1",
+            "z": "1.0"
+        },
+        "gyroscope": {
+            "pitch": "6.6",
+            "roll": "3.4",
+            "yaw": "3.0"
+        },
+        "force": {
+            "front": "30.8",
+            "middle": "31.1",
+            "rear": "1.9"
+        },
+        "pressure": "1016.7 hPa",
+        "temperature": "21.3°C"
+    },
+    {
+        "timestamp": "2023-08-25T10:02:40.000Z",
+        "gps": {
+            "distance_from_beach": "8.0m",
+            "latitude": "34.020700",
+            "longitude": "-118.502400",
+            "speed": "8.3"
+        },
+        "accelerometer": {
+            "x": "0.1",
+            "y": "10.4",
+            "z": "0.8"
+        },
+        "gyroscope": {
+            "pitch": "9.2",
+            "roll": "4.6",
+            "yaw": "2.0"
+        },
+        "force": {
+            "front": "2.0",
+            "middle": "48.7",
+            "rear": "30.1"
+        },
+        "pressure": "1016.4 hPa",
+        "temperature": "19.6°C"
+    },
+    {
+        "timestamp": "2023-08-25T10:02:45.000Z",
+        "gps": {
+            "distance_from_beach": "7.0m",
+            "latitude": "34.020700",
+            "longitude": "-118.502400",
+            "speed": "1.2"
+        },
+        "accelerometer": {
+            "x": "0.3",
+            "y": "10.0",
+            "z": "0.9"
+        },
+        "gyroscope": {
+            "pitch": "3.4",
+            "roll": "1.1",
+            "yaw": "1.3"
+        },
+        "force": {
+            "front": "39.9",
+            "middle": "48.7",
+            "rear": "37.1"
+        },
+        "pressure": "1015.5 hPa",
+        "temperature": "20.1°C"
+    },
+    {
+        "timestamp": "2023-08-25T10:02:50.000Z",
+        "gps": {
+            "distance_from_beach": "6.0m",
+            "latitude": "34.020700",
+            "longitude": "-118.502400",
+            "speed": "0.8"
+        },
+        "accelerometer": {
+            "x": "0.4",
+            "y": "10.1",
+            "z": "0.5"
+        },
+        "gyroscope": {
+            "pitch": "4.3",
+            "roll": "0.5",
             "yaw": "2.7"
         },
         "force": {
-            "front": "37.6",
-            "middle": "58.1",
-            "rear": "18.3"
+            "front": "20.2",
+            "middle": "48.0",
+            "rear": "24.3"
         },
-        "pressure": "1015.9 hPa",
+        "pressure": "1015.6 hPa",
         "temperature": "20.4°C"
     },
     {
         "timestamp": "2023-08-25T10:02:55.000Z",
         "gps": {
-            "distance_from_beach": "5m",
+            "distance_from_beach": "5.0m",
             "latitude": "34.020700",
             "longitude": "-118.502400",
-            "speed": "0.6"
+            "speed": "0.0"
         },
         "accelerometer": {
             "x": "0.1",
-            "y": "10.1",
-            "z": "0.3"
+            "y": "10.3",
+            "z": "0.4"
         },
         "gyroscope": {
-            "pitch": "0.1",
-            "roll": "0.8",
-            "yaw": "3.6"
+            "pitch": "3.1",
+            "roll": "3.8",
+            "yaw": "3.2"
         },
         "force": {
-            "front": "39.0",
-            "middle": "66.7",
-            "rear": "11.6"
+            "front": "34.7",
+            "middle": "36.4",
+            "rear": "17.3"
         },
-        "pressure": "1017.5 hPa",
+        "pressure": "1016.6 hPa",
         "temperature": "19.5°C"
     }
 ]
+
+
+var tempChart;
+var pressureChart;
+var speedChart;
+var accelerometerChart;
+var gyroscopeChart;
+var forceChart;
 
 //remove celcius mark and convert to number
 
@@ -1371,11 +1379,14 @@ function plotGraph(chartID, chartTitle, chartColor, alltimestamp, allTemperature
     if (destroy) {
 
 
-        setTimeout(function () {
-            chart.destroy();
-        }, 900);
+
+        // setTimeout(function () {
+        //     chart.destroy();
+        // }, 900);
 
     }
+
+    return chart;
     // chart.destroy();
 
 
@@ -1421,18 +1432,9 @@ function plot3LineGraphs(chartID, chartTitle, chartColor, alltimestamp, allX, al
         }
     });
 
-    if (destroy) {
-
-
-        setTimeout(function () {
-            chart.destroy();
-        }, 900);
-
-    }
+    return chart;
 
 }
-
-
 
 
 function plotData(simulationData) {
@@ -1557,40 +1559,96 @@ function plotData(simulationData) {
             //if not created, create chart
 
             //if last element, dont destroy chart
-            if (i == simulationData.length - 1) {
-                plotGraph('myChar3t', 'Temperature', 'black', alltimestamp.slice(0, i + 1), allTemperatures.slice(0, i + 1));
 
-                plotGraph('myChart2', 'Pressure (hpA)', 'red', alltimestamp.slice(0, i + 1), allPressures.slice(0, i + 1));
+            //if first time, create chart
+            if (i == 0) {
+
+                tempChart = plotGraph('myChar3t', 'Temperature', 'black', alltimestamp.slice(0, i + 1), allTemperatures.slice(0, i + 1), i == simulationData.length - 1);
+                pressureChart = plotGraph('myChart2', 'Pressure (hpA)', 'red', alltimestamp.slice(0, i + 1), allPressures.slice(0, i + 1), i == simulationData.length - 1);
 
                 //speed
-                plotGraph('myChart3', 'Speed (m/s)', 'blue', alltimestamp.slice(0, i + 1), allSpeeds.slice(0, i + 1));
+                speedChart = plotGraph('myChart3', 'Speed (m/s)', 'blue', alltimestamp.slice(0, i + 1), allSpeeds.slice(0, i + 1), i == simulationData.length - 1);
 
-                plot3LineGraphs('myChart4', ['X', 'Y', 'Z'], ['red', 'green', 'blue'], alltimestamp.slice(0, i + 1), allAccelerometerX.slice(0, i + 1), allAccelerometerY.slice(0, i + 1), allAccelerometerZ.slice(0, i + 1), false, 'Accelerometer');
+                accelerometerChart = plot3LineGraphs('myChart4', ['X', 'Y', 'Z'], ['red', 'green', 'blue'], alltimestamp.slice(0, i + 1), allAccelerometerX.slice(0, i + 1), allAccelerometerY.slice(0, i + 1), allAccelerometerZ.slice(0, i + 1), i == simulationData.length - 1, 'Accelerometer');
 
                 //gyroscope
-                plot3LineGraphs('myChart5', ['Pitch', 'Roll', 'Yaw'], ['red', 'green', 'blue'], alltimestamp.slice(0, i + 1), allGyroscopePitch.slice(0, i + 1), allGyroscopeRoll.slice(0, i + 1), allGyroscopeYaw.slice(0, i + 1), false, 'Gyroscope');
+                gyroscopeChart = plot3LineGraphs('myChart5', ['Pitch', 'Roll', 'Yaw'], ['red', 'green', 'blue'], alltimestamp.slice(0, i + 1), allGyroscopePitch.slice(0, i + 1), allGyroscopeRoll.slice(0, i + 1), allGyroscopeYaw.slice(0, i + 1), i == simulationData.length - 1, 'Gyroscope');
 
                 //force
-                plot3LineGraphs('myChart6', ['Front', 'Middle', 'Rear'], ['red', 'green', 'blue'], alltimestamp.slice(0, i + 1), allForceFront.slice(0, i + 1), allForceMiddle.slice(0, i + 1), allForceRear.slice(0, i + 1), false, 'Force');
+                forceChart = plot3LineGraphs('myChart6', ['Front', 'Middle', 'Rear'], ['red', 'green', 'blue'], alltimestamp.slice(0, i + 1), allForceFront.slice(0, i + 1), allForceMiddle.slice(0, i + 1), allForceRear.slice(0, i + 1), i == simulationData.length - 1, 'Force');
 
             } else {
+                //update chart
+                tempChart.data.labels = alltimestamp.slice(0, i + 1);
+                tempChart.data.datasets[0].data = allTemperatures.slice(0, i + 1);
+                tempChart.update();
 
-                plotGraph('myChar3t', 'Temperature', 'black', alltimestamp.slice(0, i + 1), allTemperatures.slice(0, i + 1), true);
-                plotGraph('myChart2', 'Pressure (hpA)', 'red', alltimestamp.slice(0, i + 1), allPressures.slice(0, i + 1), true);
+                pressureChart.data.labels = alltimestamp.slice(0, i + 1);
+                pressureChart.data.datasets[0].data = allPressures.slice(0, i + 1);
+                pressureChart.update();
 
-                //speed
-                plotGraph('myChart3', 'Speed (m/s)', 'blue', alltimestamp.slice(0, i + 1), allSpeeds.slice(0, i + 1), true);
+                speedChart.data.labels = alltimestamp.slice(0, i + 1);
+                speedChart.data.datasets[0].data = allSpeeds.slice(0, i + 1);
+                speedChart.update();
 
-                plot3LineGraphs('myChart4', ['X', 'Y', 'Z'], ['red', 'green', 'blue'], alltimestamp.slice(0, i + 1), allAccelerometerX.slice(0, i + 1), allAccelerometerY.slice(0, i + 1), allAccelerometerZ.slice(0, i + 1), true, 'Accelerometer');
+                accelerometerChart.data.labels = alltimestamp.slice(0, i + 1);
+                accelerometerChart.data.datasets[0].data = allAccelerometerX.slice(0, i + 1);
+                accelerometerChart.data.datasets[1].data = allAccelerometerY.slice(0, i + 1);
+                accelerometerChart.data.datasets[2].data = allAccelerometerZ.slice(0, i + 1);
+                accelerometerChart.update();
 
-                //gyroscope
-                plot3LineGraphs('myChart5', ['Pitch', 'Roll', 'Yaw'], ['red', 'green', 'blue'], alltimestamp.slice(0, i + 1), allGyroscopePitch.slice(0, i + 1), allGyroscopeRoll.slice(0, i + 1), allGyroscopeYaw.slice(0, i + 1), true, 'Gyroscope');
+                gyroscopeChart.data.labels = alltimestamp.slice(0, i + 1);
+                gyroscopeChart.data.datasets[0].data = allGyroscopePitch.slice(0, i + 1);
+                gyroscopeChart.data.datasets[1].data = allGyroscopeRoll.slice(0, i + 1);
+                gyroscopeChart.data.datasets[2].data = allGyroscopeYaw.slice(0, i + 1);
+                gyroscopeChart.update();
 
-                //force
-                plot3LineGraphs('myChart6', ['Front', 'Middle', 'Rear'], ['red', 'green', 'blue'], alltimestamp.slice(0, i + 1), allForceFront.slice(0, i + 1), allForceMiddle.slice(0, i + 1), allForceRear.slice(0, i + 1), true, 'Force');
+                forceChart.data.labels = alltimestamp.slice(0, i + 1);
+                forceChart.data.datasets[0].data = allForceFront.slice(0, i + 1);
+                forceChart.data.datasets[1].data = allForceMiddle.slice(0, i + 1);
+                forceChart.data.datasets[2].data = allForceRear.slice(0, i + 1);
+                forceChart.update();
+
+
+
             }
 
-            // plotGraph(alltimestamp.slice(0, i + 1), allTemperatures.slice(0, i + 1));
+
+
+            // if (i == simulationData.length - 1) {
+            //     var tempChart = plotGraph('myChar3t', 'Temperature', 'black', alltimestamp.slice(0, i + 1), allTemperatures.slice(0, i + 1));
+            //     tempChart.
+            //     plotGraph('myChart2', 'Pressure (hpA)', 'red', alltimestamp.slice(0, i + 1), allPressures.slice(0, i + 1));
+
+            //     //speed
+            //     plotGraph('myChart3', 'Speed (m/s)', 'blue', alltimestamp.slice(0, i + 1), allSpeeds.slice(0, i + 1));
+
+            //     plot3LineGraphs('myChart4', ['X', 'Y', 'Z'], ['red', 'green', 'blue'], alltimestamp.slice(0, i + 1), allAccelerometerX.slice(0, i + 1), allAccelerometerY.slice(0, i + 1), allAccelerometerZ.slice(0, i + 1), false, 'Accelerometer');
+
+            //     //gyroscope
+            //     plot3LineGraphs('myChart5', ['Pitch', 'Roll', 'Yaw'], ['red', 'green', 'blue'], alltimestamp.slice(0, i + 1), allGyroscopePitch.slice(0, i + 1), allGyroscopeRoll.slice(0, i + 1), allGyroscopeYaw.slice(0, i + 1), false, 'Gyroscope');
+
+            //     //force
+            //     plot3LineGraphs('myChart6', ['Front', 'Middle', 'Rear'], ['red', 'green', 'blue'], alltimestamp.slice(0, i + 1), allForceFront.slice(0, i + 1), allForceMiddle.slice(0, i + 1), allForceRear.slice(0, i + 1), false, 'Force');
+
+            // } else {
+
+            //     plotGraph('myChar3t', 'Temperature', 'black', alltimestamp.slice(0, i + 1), allTemperatures.slice(0, i + 1), true);
+            //     plotGraph('myChart2', 'Pressure (hpA)', 'red', alltimestamp.slice(0, i + 1), allPressures.slice(0, i + 1), true);
+
+            //     //speed
+            //     plotGraph('myChart3', 'Speed (m/s)', 'blue', alltimestamp.slice(0, i + 1), allSpeeds.slice(0, i + 1), true);
+
+            //     plot3LineGraphs('myChart4', ['X', 'Y', 'Z'], ['red', 'green', 'blue'], alltimestamp.slice(0, i + 1), allAccelerometerX.slice(0, i + 1), allAccelerometerY.slice(0, i + 1), allAccelerometerZ.slice(0, i + 1), true, 'Accelerometer');
+
+            //     //gyroscope
+            //     plot3LineGraphs('myChart5', ['Pitch', 'Roll', 'Yaw'], ['red', 'green', 'blue'], alltimestamp.slice(0, i + 1), allGyroscopePitch.slice(0, i + 1), allGyroscopeRoll.slice(0, i + 1), allGyroscopeYaw.slice(0, i + 1), true, 'Gyroscope');
+
+            //     //force
+            //     plot3LineGraphs('myChart6', ['Front', 'Middle', 'Rear'], ['red', 'green', 'blue'], alltimestamp.slice(0, i + 1), allForceFront.slice(0, i + 1), allForceMiddle.slice(0, i + 1), allForceRear.slice(0, i + 1), true, 'Force');
+            // }
+
+
 
             i++;
         } else {
@@ -1600,12 +1658,12 @@ function plotData(simulationData) {
 
 }
 
-plotData(
-    sim3
-);
 // plotGraph();
 function startSimulation() {
 
+    plotData(
+        sim3
+    );
     console.log("Simulation started");
 }
 
