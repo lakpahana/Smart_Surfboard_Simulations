@@ -68,47 +68,113 @@ var simulationData = [
         },
         "temperature": "19.4°C",
         "force": {
-            "front": "33.5",
-            "middle": "41.0",
+            "front": "50.5",
+            "middle": "20.0",
             "rear": "26.0"
         },
         "pressure": "1015.9 hPa"
     }
 ]
 
-//feed this data gradually to the plot function
-function feedData() {
-    //get the first element of the array
-    var data = simulationData[0];
-    //remove the first element
-    simulationData.shift();
-    //plot the data
-    plotData(data);
-    //if there is no more data, stop the simulation
-    if (simulationData.length == 0) {
-        stopSimulation();
+function plotData() {
+    var panel = document.querySelector(".surfboard");
+    function updatePanelTransform(rotateX, rotateY, rotateZ) {
+        panel.setAttribute("style", "transform: rotateX( " + rotateX + "deg ) rotateY( " + rotateY + "deg ) rotateZ( " + rotateZ + "deg )");
     }
+
+
+    // loop simulationData with 1 second delay
+    var i = 0;
+    var interval = setInterval(function () {
+        if (i < simulationData.length) {
+            var data = simulationData[i];
+            var gps = data.gps;
+            var accelerometer = data.accelerometer;
+            var gyroscope = data.gyroscope;
+            console.log(gyroscope);
+            var force = data.force;
+
+            // update panel
+            updatePanelTransform(gyroscope.pitch * 15, gyroscope.roll * 15, gyroscope.yaw * 15);
+
+            // // update gps
+            var gpsElement = document.querySelector(".gps");
+            gpsElement.querySelector(".latitude").innerHTML = "Lat :" +  gps.latitude;
+            gpsElement.querySelector(".longitude").innerHTML = "Long :" +  gps.longitude;
+            gpsElement.querySelector(".speed").innerHTML = "Speed :" +  gps.speed;
+
+            // // update accelerometer
+            var accelerometerElement = document.querySelector(".accelerometer");
+            accelerometerElement.querySelector(".x").innerHTML = "X :" + accelerometer.x;
+            accelerometerElement.querySelector(".y").innerHTML = "Y :" + accelerometer.y;
+            accelerometerElement.querySelector(".z").innerHTML = "Z :" + accelerometer.z;
+
+            // // update force
+            var forceElement = document.querySelector(".surfboard");
+            forceElement.querySelector(".front").innerHTML = force.front;
+            forceElement.querySelector(".middle").innerHTML = force.middle;
+            forceElement.querySelector(".back").innerHTML = force.rear;
+
+            //change color according to force distribution
+            var front = force.front;
+            var middle = force.middle;
+            var back = force.rear;
+
+            //find which part has the most force
+            var max = Math.max(front, middle, back);
+            // that part will be red
+            if (max == front) {
+                forceElement.querySelector(".front").style.backgroundColor = "red";
+            } else if (max == middle) {
+                forceElement.querySelector(".middle").style.backgroundColor = "red";
+            } else {
+                forceElement.querySelector(".back").style.backgroundColor = "red";
+            }
+
+            //find which part has the least force
+            var min = Math.min(front, middle, back);
+            // that part will be green
+            if (min == front) {
+                forceElement.querySelector(".front").style.backgroundColor = "green";
+            } else if (min == middle) {
+                forceElement.querySelector(".middle").style.backgroundColor = "green";
+            } else {
+                forceElement.querySelector(".back").style.backgroundColor = "green";
+            }
+
+            //find which part has the middle force
+            var middle = Math.min(Math.max(front, middle), Math.max(Math.min(front, middle), back));
+            // that part will be yellow
+            if (middle == front) {
+                forceElement.querySelector(".front").style.backgroundColor = "yellow";
+            } else if (middle == middle) {
+                forceElement.querySelector(".middle").style.backgroundColor = "yellow";
+            } else {
+                forceElement.querySelector(".back").style.backgroundColor = "yellow";
+            }
+
+
+
+
+
+
+            // // update temperature
+            var temperatureElement = document.querySelector(".temperature");
+            temperatureElement.querySelector(".value").innerHTML = data.temperature;
+
+            // // update pressure
+            var pressureElement = document.querySelector(".pressure");
+            pressureElement.querySelector(".value").innerHTML = data.pressure;
+
+            i++;
+        } else {
+            clearInterval(interval);
+        }
+    }, 1000);
 
 }
 
-
-
-
-
-
-async function main() {
-    //dmmy json response as data
-    const data = {
-        "name": "John Doe",
-        "age": 30,
-        "cars": [
-            { "name": "Ford", "models": ["Fiesta", "Focus", "Mustang"] },
-            { "name": "BMW", "models": ["320", "X3", "X5"] },
-            { "name": "Fiat", "models": ["500", "Panda"] }
-        ]
-    }
-    console.log(data);
-}
+plotData();
 
 function startSimulation() {
 
@@ -116,4 +182,3 @@ function startSimulation() {
 }
 
 
-main();

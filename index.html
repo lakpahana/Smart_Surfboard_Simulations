@@ -8,6 +8,13 @@
     <script src="chart.js"></script>
 
     <style>
+        /* css varibale */
+        :root {
+            --primary-color: #4a90e2;
+            --secondary-color: #f5a623;
+            --tertiary-color: #d0021b;
+        }
+
         /*  divide the grids as 1 to 2 ration in the screen */
         .grid-container {
             display: grid;
@@ -22,6 +29,15 @@
             padding: 20px;
             font-size: 30px;
             text-align: center;
+        }
+
+        .grid-item-row {
+            background-color: rgba(255, 255, 255, 0.8);
+            border: 1px solid rgba(0, 0, 0, 0.8);
+            /* padding: 20px; */
+            font-size: 30px;
+            text-align: center;
+            grid-column: 1 / span 2;
         }
 
         #start {
@@ -41,6 +57,54 @@
         #start:hover {
             background-color: #3e8e41;
         }
+
+        .surfboard {
+            margin-top: 50px;
+            margin-left: 20px;
+            display: flex;
+            width: 300px;
+            height: 50px;
+            background-color: #ffffff;
+            border-top-left-radius: 50% 15px;
+            border-top-right-radius: 50% 15px;
+            border-bottom-left-radius: 50% 15px;
+            border-bottom-right-radius: 50% 15px;
+            overflow: hidden;
+            /* ADD A NORDER */
+            border: 2px solid rgba(0, 0, 0, 0.8);
+            /* deep bx shadow */
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+
+
+
+
+
+
+        }
+
+        .front,
+        .middle,
+        .back {
+            flex: 1;
+            height: 100%;
+            transition: all 0.3s;
+        }
+
+        .front {
+            background-color: var(--primary-color);
+            border-top-left-radius: 50% 15px;
+            border-bottom-left-radius: 50% 15px;
+        }
+
+        .back {
+            background-color: var(--primary-color);
+            border-top-right-radius: 50% 15px;
+            border-bottom-right-radius: 50% 15px;
+        }
+
+        .middle {
+            background-color: var(--primary-color);
+        }
     </style>
 
 </head>
@@ -50,29 +114,105 @@
     <div class="grid-container">
 
         <div class="grid-item">
-            <h1>Smart Surfboard Simulation V1</h1>
-            <!-- button with button id start -->
-            <button id="start">Start</button>
+            <div clas="grid-item">
 
+                <h4>Smart Surfboard Simulation V1</h4>
+                <!-- button with button id start -->
+                <button id="start">Start</button>
+            </div>
+            <div class="grid-item" style="
+            /* remove border */
+            border: none;
+            ">
+                <!-- surfboard using css divide the surfobard into 3 parts front middle back -->
+
+                <div>
+                    <p style="
+                    font-size: large;
+                    text-decoration: underline;
+                    ">Force Distribution and X,Y,Z Ang Velocity</p>
+                    <div class="surfboard" data-rotate-x=1 data-rotate-y=2 data-rotate-z=5>
+
+                        <div class="front">
+                        </div>
+                        <div class="middle"></div>
+                        <div class="back"></div>
+                    </div>
+                </div>
+
+                <br>
+                <div class="grid-container" style="font-size:large;">
+                    <div class="accelerometer">
+                        <p style="
+                        /* underline */
+                        text-decoration: underline;
+                        ">Accelerometer</p>
+                        <!-- x,y,z accelerations and name class as x yz -->
+                        <p class="x">X: 0</p>
+                        <p class="y">Y: 0</p>
+                        <p class="z">Z: 0</p>
+                    </div>
+                    <!-- gpsElement -->
+                    <div class="gps">
+                        <p style="
+                        text-decoration: underline;
+                    ">GPS</p>
+                        <!--latitude,longitude,speed  -->
+                        <p class="latitude">Latitude: 0</p>
+                        <p class="longitude">Longitude: 0</p>
+                        <p class="speed">Speed: 0</p>
+                    </div>
+                </div>
+
+                <div class="grid-container" style="font-size: large;">
+                    <!-- Show tempertire -->
+                    <div class="temperature">
+                        <p style="
+                        text-decoration: underline;
+                    ">Temperature</p>
+                        <p class="value">Temperature: 0</p>
+
+                    </div>
+                    <!-- show pressure -->
+                    <div class="pressure">
+                        <p style="
+                        text-decoration: underline;
+                    ">Pressure</p>
+
+                        <p class="value">Pressure: 0</p>
+                    </div>
+
+
+                </div>
+
+
+
+
+            </div>
         </div>
         <div class="grid-item">
 
-            <!-- divide this into 5 rows -->
+            <!-- divide this into 5 rows charts with full width -->
             <div class="grid-container">
                 <div class="grid-item">
-                    <canvas id="myChart" width="400" height="400"></canvas>
+                    <p>Acceleration</p>
+                    <canvas id="myChart1" width="400" height=""></canvas>
                 </div>
                 <div class="grid-item">
-                    <canvas id="myChart2" width="400" height="400"></canvas>
+                    <p>Speed</p>
+                    <canvas id="myChart2" width="400" height=""></canvas>
                 </div>
                 <div class="grid-item">
-                    <canvas id="myChart3" width="400" height="400"></canvas>
+                    <p>Distance</p>
+                    <canvas id="myChart3" width="400" height=""></canvas>
                 </div>
                 <div class="grid-item">
-                    <canvas id="myChart4" width="400" height="400"></canvas>
+                    <p>Time</p>
+                    <canvas id="myChart4" width="400" height=""></canvas>
                 </div>
                 <div class="grid-item">
-                    <canvas id="myChart5" width="400" height="400"></canvas>
+                    <p></p>
+                    <canvas id="myChart5" width="400" height=""></canvas>
                 </div>
             </div>
 
@@ -97,7 +237,6 @@
             //start the simulation
             startSimulation();
         });
-
 
 
     </script>
