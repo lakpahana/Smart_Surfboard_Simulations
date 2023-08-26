@@ -350,6 +350,7 @@ var simulationData3 = [
     },
 
 
+
     {
         "timestamp": "2023-08-25T10:07:25Z",
         "gps": {
@@ -401,10 +402,7 @@ var simulationData3 = [
         },
         "pressure": "1016.15 hPa",
         "temperature": "19.48°C"
-    },
-    //add more data
-
-
+    }
 ]
 
 var sim3 = [
