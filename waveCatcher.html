@@ -243,52 +243,21 @@
                 <div class="navigaion">
                     <!-- indicatie where to move  -->
 
-                    <p> Move to : Top Right</p>
+                    <p> Move To :
+                    <p class="navigationText">
+                    </p>
+                    </p>
 
 
                 </div>
             </div>
-            <script>
-                var map = L.map('map').setView([6.032042, 80.237769], 13);
-                //setzoom
-                map.setZoom(18);
-                L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                    maxZoom: 80,
-                    attribution: '© OpenStreetMap'
-                }).addTo(map);
 
-                var marker;
-                // loop 10 times
-                var lat = 6.032042;
-                var long = 80.237769;
-                marker = L.marker([lat, long]).addTo(map);
-                marker.bindPopup("<b>Smart Surfboard</b><br>Current Location.").openPopup();
-                // for (var i = 0; i < 10; i++) {
-                //     marker = L.marker([lat - 0.00231, long]).addTo(map);
-                // }
-
-
-
-
-
-                var optimumSurfCatchingPostion = L.marker([6.03159, 80.238]).addTo(map);
-                optimumSurfCatchingPostion.bindPopup("Best Position to Catch Wave.").openPopup();
-
-                //create a small rectangle 
-                var rect = L.rectangle([
-                    [6.032100, 80.237799],
-                    [6.032042, 80.237769]
-                ], {
-                    color: "red",
-                    weight: 1
-                }).addTo(map);
-            </script>
 
 
         </div>
 
 
-        <script src="index.js"></script>
+        <script src="wc.js"></script>
         <script>
             // get the button id start, disable it after clicking
             const startButton = document.getElementById('start');
