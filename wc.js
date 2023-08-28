@@ -348,6 +348,8 @@ function guideToSurf(endingPoint, CurrentPoint) {
 
     //If need to navigate to the ending point from the current point guide by the left,right,front,back,top,bottom
 
+
+
     var navigattionText = "";
 
     if (lat1 > lat2) {
